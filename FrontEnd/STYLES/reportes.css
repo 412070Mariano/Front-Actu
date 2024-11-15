@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+    background-image: none;
+}
+.group{
+    border: none;
+}
+.container { 
+    margin-top: 20px; 
+} 
+.table-container { 
+    margin-top: 20px; 
+} 
+.form-container { 
+    margin-bottom: 20px;
+}
+.chart-container{
+    height:15%; 
+    width:30vw;
+    position: relative;
+    margin: auto;
+}
+
+.container {
+    margin-left: 0;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.container.active {
+    margin-left: 240px; /* Sidebar width */
+}
